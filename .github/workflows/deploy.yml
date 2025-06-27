@@ -20,7 +20,8 @@ jobs:
 
       - name: Build Hugo site
         working-directory: frontend
-        run: hugo -F --cleanDestinationDir
+        #run: hugo -F --cleanDestinationDir
+        run: hugo --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
