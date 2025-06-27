@@ -18,7 +18,7 @@ jobs:
         with:
           hugo-version: '0.111.3'  # 根据你项目的需要修改
 
-      - name: Build site
+      - name: Build Hugo site
         working-directory: frontend
         run: hugo -F --cleanDestinationDir
 
