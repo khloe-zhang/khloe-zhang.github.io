@@ -156,7 +156,7 @@ params:
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
+    hiddenInSingle: true # hide on single page
 
   fuseOpts: # 搜索配置
     isCaseSensitive: false
