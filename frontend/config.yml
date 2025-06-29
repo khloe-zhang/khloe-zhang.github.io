@@ -75,7 +75,8 @@ params:
 
   defaultTheme: auto  # defaultTheme: light or  dark
   disableThemeToggle: false
-  DateFormat: "2006-01-02"
+  DateFormat: "2006-01-02 15:04"
+  enableGitInfo: true # 自动获取时间
   ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecialistPost: true
