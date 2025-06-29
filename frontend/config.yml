@@ -78,6 +78,7 @@ params:
   disableThemeToggle: false
   DateFormat: "2006-01-02 15:04"
   enableGitInfo: true # 自动获取时间
+  timeZone: "Asia/Shanghai"
   ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecialistPost: true
