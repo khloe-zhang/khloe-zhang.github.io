@@ -6,7 +6,16 @@
     <description>Recent content on Bear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 30 Nov 2022 15:55:23 +0800</lastBuildDate><atom:link href="https://khloe-zhang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jun 2025 00:25:25 +0800</lastBuildDate><atom:link href="https://khloe-zhang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>坡岛环游记之1——登加、小桂林、武吉巴督</title>
+      <link>https://khloe-zhang.github.io/posts/travel/0519/</link>
+      <pubDate>Sat, 28 Jun 2025 00:25:25 +0800</pubDate>
+      
+      <guid>https://khloe-zhang.github.io/posts/travel/0519/</guid>
+      <description>写在前面 离坡之前的一个月，突然有了大把空闲时间，经常窝在宿舍刷 Reddit。看了几篇犯罪纪实类的帖子，又在油管上刷了相关的纪录片，听到那些事件发生的地名，都是很耳熟但从来没有去过的地方。平常因为上学太忙一直待在西部，最多也就到市中心玩玩，没想过踏足那些普通的社区。于是决定——我要</description>
+    </item>
+    
     <item>
       <title>Redis scan命令学习</title>
       <link>https://khloe-zhang.github.io/posts/tech/tech1/</link>
@@ -17,12 +26,12 @@
     </item>
     
     <item>
-      <title>Travel</title>
-      <link>https://khloe-zhang.github.io/posts/travel/travel/</link>
-      <pubDate>Thu, 05 May 2022 00:18:23 +0800</pubDate>
+      <title>云计算</title>
+      <link>https://khloe-zhang.github.io/posts/tech/cloud/</link>
+      <pubDate>Wed, 30 Nov 2022 15:55:23 +0800</pubDate>
       
-      <guid>https://khloe-zhang.github.io/posts/travel/travel/</guid>
-      <description></description>
+      <guid>https://khloe-zhang.github.io/posts/tech/cloud/</guid>
+      <description>云计算相关知识点，服务架构</description>
     </item>
     
     <item>

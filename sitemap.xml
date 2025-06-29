@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://khloe-zhang.github.io/posts/travel/</loc>
+    <lastmod>2025-06-29T13:06:25+08:00</lastmod>
+  </url><url>
+    <loc>https://khloe-zhang.github.io/posts/</loc>
+    <lastmod>2025-06-29T13:06:25+08:00</lastmod>
+  </url><url>
+    <loc>https://khloe-zhang.github.io/</loc>
+    <lastmod>2025-06-29T13:06:25+08:00</lastmod>
+  </url><url>
+    <loc>https://khloe-zhang.github.io/tags/singapore/</loc>
+    <lastmod>2025-06-29T13:06:25+08:00</lastmod>
+  </url><url>
+    <loc>https://khloe-zhang.github.io/tags/travel/</loc>
+    <lastmod>2025-06-29T13:06:25+08:00</lastmod>
+  </url><url>
+    <loc>https://khloe-zhang.github.io/tags/</loc>
+    <lastmod>2025-06-29T13:06:25+08:00</lastmod>
+  </url><url>
+    <loc>https://khloe-zhang.github.io/posts/travel/0519/</loc>
+    <lastmod>2025-06-29T13:06:25+08:00</lastmod>
+  </url><url>
     <loc>https://khloe-zhang.github.io/posts/tech/</loc>
     <lastmod>2022-11-30T15:55:23+08:00</lastmod>
   </url><url>
-    <loc>https://khloe-zhang.github.io/posts/</loc>
-    <lastmod>2022-11-30T15:55:23+08:00</lastmod>
-  </url><url>
-    <loc>https://khloe-zhang.github.io/</loc>
-    <lastmod>2022-11-30T15:55:23+08:00</lastmod>
-  </url><url>
     <loc>https://khloe-zhang.github.io/categories/</loc>
+    <lastmod>2022-11-30T15:55:23+08:00</lastmod>
+  </url><url>
+    <loc>https://khloe-zhang.github.io/tags/cloud/</loc>
     <lastmod>2022-11-30T15:55:23+08:00</lastmod>
   </url><url>
     <loc>https://khloe-zhang.github.io/tags/redis/</loc>
@@ -26,17 +44,11 @@
     <loc>https://khloe-zhang.github.io/tags/tech/</loc>
     <lastmod>2022-11-30T15:55:23+08:00</lastmod>
   </url><url>
-    <loc>https://khloe-zhang.github.io/tags/</loc>
+    <loc>https://khloe-zhang.github.io/categories/tech/</loc>
     <lastmod>2022-11-30T15:55:23+08:00</lastmod>
   </url><url>
-    <loc>https://khloe-zhang.github.io/posts/travel/</loc>
-    <lastmod>2022-05-05T00:18:23+08:00</lastmod>
-  </url><url>
-    <loc>https://khloe-zhang.github.io/tags/blog/</loc>
-    <lastmod>2022-05-05T00:18:23+08:00</lastmod>
-  </url><url>
-    <loc>https://khloe-zhang.github.io/posts/travel/travel/</loc>
-    <lastmod>2022-05-05T00:18:23+08:00</lastmod>
+    <loc>https://khloe-zhang.github.io/posts/tech/cloud/</loc>
+    <lastmod>2022-11-30T15:55:23+08:00</lastmod>
   </url><url>
     <loc>https://khloe-zhang.github.io/posts/life/</loc>
     <lastmod>2022-05-05T00:18:15+08:00</lastmod>
