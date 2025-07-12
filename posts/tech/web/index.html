@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Tech | Bear&#39;s Blog</title>
-<meta name="keywords" content="">
-<meta name="description" content="科技代码">
-<meta name="author" content="Sulv">
-<link rel="canonical" href="https://khloe-zhang.github.io/posts/tech/tech/">
+<title>Web | Bear&#39;s Blog</title>
+<meta name="keywords" content="web">
+<meta name="description" content="搭建网站用到的 Web 相关技术栈">
+<meta name="author" content="Bear">
+<link rel="canonical" href="https://khloe-zhang.github.io/posts/tech/web/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://khloe-zhang.github.io/img/B.jpg">
@@ -27,37 +27,7 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript>
-<script defer src="https://unpkg.com/mermaid@8.8.1/dist/mermaid.min.js"></script>
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
@@ -73,18 +43,16 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-<meta property="og:title" content="Tech" />
-<meta property="og:description" content="科技代码" />
+<meta property="og:title" content="Web" />
+<meta property="og:description" content="搭建网站用到的 Web 相关技术栈" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://khloe-zhang.github.io/posts/tech/tech/" />
-<meta property="og:image" content="https://www.sulvblog.cn/posts/blog/how_to_write_a_blog/1.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-05-05T00:17:58+08:00" />
-<meta property="article:modified_time" content="2025-06-29T20:11:08+08:00" />
+<meta property="og:url" content="https://khloe-zhang.github.io/posts/tech/web/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-07-06T00:23:00+08:00" />
+<meta property="article:modified_time" content="2025-07-12T22:29:31+08:00" />
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://www.sulvblog.cn/posts/blog/how_to_write_a_blog/1.png" />
-<meta name="twitter:title" content="Tech"/>
-<meta name="twitter:description" content="科技代码"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Web"/>
+<meta name="twitter:description" content="搭建网站用到的 Web 相关技术栈"/>
 
 
 <script type="application/ld+json">
@@ -109,8 +77,8 @@ var _hmt = _hmt || [];
     {
       "@type": "ListItem",
       "position":  3 ,
-      "name": "Tech",
-      "item": "https://khloe-zhang.github.io/posts/tech/tech/"
+      "name": "Web",
+      "item": "https://khloe-zhang.github.io/posts/tech/web/"
     }
   ]
 }
@@ -119,24 +87,24 @@ var _hmt = _hmt || [];
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Tech",
-  "name": "Tech",
-  "description": "科技代码",
+  "headline": "Web",
+  "name": "Web",
+  "description": "搭建网站用到的 Web 相关技术栈",
   "keywords": [
-    ""
+    "web"
   ],
-  "articleBody": "\u003cdiv\u003e 科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 科技代码 \u003c/div\u003e ",
-  "wordCount" : "210",
+  "articleBody": "写在前面 一开始搭建这个网站时，是想练习一下 AWS 云服务的操作，真正用 AWS 来上手做一点事情。2月份开始就有这个想法，当时花费很久部署了 EC2 + EBS + Github Actions，搭配 Flask 后端和 VUE 前端。整个过程非常之艰辛，不断有各种报错，由于蹭的是 AWS 的免费套餐，EC2 和 EBS 都有限额，经常遇到内存不足的报错。历经千辛万苦配置好了服务器，又找到了合眼缘的 VUE 模板，但由于 node.js 各种包的版本不兼容，配置前端也花了很多精力。然而此时网站还没有任何内容，只是准备环境已经精疲力尽，又要开始准备春招，所以项目搁置了好几个月。后果是，等我想要继续开始时，已经忘记之前做了些啥……当时每个步骤都在 Google Docs 里记录了，但现在看起来像天书，完全不记得每个步骤是在做啥。\n我想也可能是因为一直没有看到一个初步的成果，自己也没有继续做下去的动力了。这次重新启动，第一要义是先搞出一个可见的网站页面并且上线，尽量用简单的技术栈。经过思考，博客短期内应该只有静态内容，所以先不用服务器，改用 S3 托管静态页面，配合 CloudFront CDN 全球加速，继续用 Github Actions 来做 CI/CD。另外前端需要找能够快速配置和上线的模板，不要再用 VUE。经过一番搜索，Hugo 和 Hexo 是两个比较流行的博客框架，其中 Hugo 是基于 Go 语言的，据说不容易像 node.js 一样报错多多，于是选择 Hugo。在这个知乎问答里，找到了一个简洁又不失美观的模板，国内一个作者基于经典的 PaperMod 模板修改的 sulv-papermod。最终（或者说阶段性的）效果也就是你现在看到的网站了。\n静态网站（当前版本） AWS S3 AWS CloudFront CDN CloudFlare DNS 与 HTTPS、TLS 首先对比了两家域名服务商的价格，AWS Route53 是 14 美金一年，CloudFlare 10 美金一年，续约同价。另外 CF 还有方便部署的 HTTPS 和 SSL/TLS、DDoS、WAF 等安全服务。此外，据说 AWS 在中国大陆的 DNS 速度比较慢。综合看来，还是选择了 CloudFlare 买域名 + DNS 托管（其实两个可以分开，这里只是为了方便所以都用 CF 了）。\n什么是反向代理 先说说什么是正向代理（Forward Proxy）。它是一个代理服务器，位于客户端和目标服务器之间，帮助客户端访问原本无法直接访问的内容。客户端将请求发给代理服务器，由代理服务器发起真正的网络请求，并将响应返回给客户端。相当于“偷偷”让代理帮你访问目标网站，目标服务器并不知道你是谁。\n正向代理的使用场景：\n绕过网络限制，访问被墙的网站（如中国大陆访问 Google、YouTube）。 隐藏真实身份，比如用代理 IP 爬虫，防止被目标网站封禁。 开发调试环境，开发人员抓包分析流量、测试不同地区的访问效果。 访问地域限定资源，例如某服务只允许美国 IP 访问时，可以使用美国的正向代理服务器。 似乎前两者更常见到。\n总之，正向代理的“代理”对象是客户端，帮客户端出面去请求内容。\n与之相对的，反向代理（Reverse Proxy） 的“代理”对象是服务端。它是一个位于客户端和服务器之间的服务器，接收用户请求并代表真实服务器来处理这些请求。它在扮演“服务器的中间商”。\n在部署 CloudFlare 的时候就用到了反向代理，DNS 列表里如果把 Proxy 打钩，图标会变成橙色云朵，代表开启了反向代理。\n在没有反向代理的情况下，用户浏览器会直接向 CloudFront 发起请求（DNS 只做解析，不做中转），CloudFront 向 S3 获取页面。没有 Cloudflare 的缓存、WAF、HTTPS、DDoS 防护等能力。路径是 用户 → DNS → CloudFront → S3。\n开启了反向代理后，用户请求被 Cloudflare 接收（Cloudflare 成为反向代理）。Cloudflare 根据配置（如 CNAME 记录）将请求转发到 CloudFront。现在路径是 用户 → CloudFlare 反向代理 → CloudFront → S3。\nCloudFlare 的反向代理主要实现以下几个功能：\n自动配置 HTTPS（使用它自己的证书），而且是免费的 缓存静态内容（可减少 CloudFront 请求次数） 过滤恶意请求、防护 DDoS、Bot 等攻击 隐藏真实源站地址（CloudFront 域名不暴露） 总之，在这个网站中，CloudFlare 的 “橙色云朵” Proxy 模式本质上就是反向代理服务器，负责代表网站接收用户请求、处理 HTTPS、执行缓存与安全策略。不仅提升了访问速度，也让网站更安全、更好用。\n后端网站（计划版本） AWS EC2 AWS EBS MySQL Nginx ",
+  "wordCount" : "1674",
   "inLanguage": "zh",
-  "image":"https://www.sulvblog.cn/posts/blog/how_to_write_a_blog/1.png","datePublished": "2022-05-05T00:17:58+08:00",
-  "dateModified": "2025-06-29T20:11:08+08:00",
+  "datePublished": "2025-07-06T00:23:00+08:00",
+  "dateModified": "2025-07-12T22:29:31+08:00",
   "author":[{
     "@type": "Person",
-    "name": "Sulv"
+    "name": "Bear"
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://khloe-zhang.github.io/posts/tech/tech/"
+    "@id": "https://khloe-zhang.github.io/posts/tech/web/"
   },
   "publisher": {
     "@type": "Organization",
@@ -152,27 +120,10 @@ var _hmt = _hmt || [];
 
 <body class="" id="top">
 <script>
-    (function () {
-        let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
-        if(arr = document.cookie.match(reg)) {
-        } else {
-            if (new Date().getHours() >= 19 || new Date().getHours() < 6) {
-                document.body.classList.add('dark');
-                localStorage.setItem("pref-theme", 'dark');
-            } else {
-                document.body.classList.remove('dark');
-                localStorage.setItem("pref-theme", 'light');
-            }
-        }
-    })()
-
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
+
 </script>
 
 <header class="header">
@@ -257,10 +208,10 @@ var _hmt = _hmt || [];
         <header class="post-header">
             <div class="breadcrumbs"><a href="https://khloe-zhang.github.io/">🏠 主页</a>&nbsp;»&nbsp;<a href="https://khloe-zhang.github.io/posts/">📚文章</a>&nbsp;»&nbsp;<a href="https://khloe-zhang.github.io/posts/tech/">💻 技术</a></div>
             <h1 class="post-title">
-                Tech
+                Web
             </h1>
             <div class="post-description">
-                科技代码
+                搭建网站用到的 Web 相关技术栈
             </div>
             <div class="post-meta">
 
@@ -282,34 +233,28 @@ var _hmt = _hmt || [];
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
         <span>
-                2025-06-29 12:11
+                2025-07-06 00:23
             
             &nbsp;&nbsp;
         </span>
     </span>
-      
-        <span id="post_meta_style_2">
-            <span class="fa fa-calendar-plus-o"></span>
-            <span>
-                更新&nbsp;2025-06-29 20:11
-                &nbsp;|&nbsp;&nbsp;
-            </span>
-        </span>
+    
+
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>210字
+        <span>1674字
             &nbsp;&nbsp;
         </span>
     </span>
     <span id="post_meta_style_4">
         <span class="fa fa-clock-o"></span>
-        <span>1分钟
+        <span>4分钟
             &nbsp;&nbsp;
         </span>
     </span>
     <span id="post_meta_style_5">
         <span class="fa fa-user-o"></span>
-        <span>Sulv
+        <span>Bear
             &nbsp;&nbsp;
         </span>
     </span>
@@ -317,7 +262,7 @@ var _hmt = _hmt || [];
         <span class="fa fa-tags" style="opacity: 0.8"></span>
         <span>
             <span class="post-tags-meta">
-                <a href="https://khloe-zhang.github.io/tags/tech/" style="color: var(--secondary)!important;">tech</a>
+                <a href="https://khloe-zhang.github.io/tags/web/" style="color: var(--secondary)!important;">web</a>
             </span>
         </span>
     </span>
@@ -334,7 +279,7 @@ var _hmt = _hmt || [];
                     <span id="post_meta_style_8">
                         <span class="fa fa-commenting-o"></span>
                         <span>
-                            <script src="https://cdn.staticfile.org/twikoo/1.5.8/twikoo.all.min.js"></script>
+                            <script src="https://cdn.staticfile.org/twikoo/1.6.44/twikoo.all.min.js"></script>
                             <script>
                                 let url = document.documentURI
                                 
@@ -345,7 +290,7 @@ var _hmt = _hmt || [];
                                     finalUrl = '/'+finalUrl
                                 }
                                 twikoo.getCommentsCount({
-                                    envId:  null , 
+                                    envId: "https://twikoo.bearlybear.com", 
                                 region:  null , 
                                 urls: [ 
                                     
@@ -370,84 +315,156 @@ var _hmt = _hmt || [];
                 </span>
 
 </div>
-        </header> 
-        <div class="post-content"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>    科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>    科技代码
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
-</span></span></code></pre></div>
+        </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
 
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%86%99%e5%9c%a8%e5%89%8d%e9%9d%a2" aria-label="写在前面">写在前面</a></li>
+                <li>
+                    <a href="#%e9%9d%99%e6%80%81%e7%bd%91%e7%ab%99%e5%bd%93%e5%89%8d%e7%89%88%e6%9c%ac" aria-label="静态网站（当前版本）">静态网站（当前版本）</a><ul>
+                        
+                <li>
+                    <a href="#aws-s3" aria-label="AWS S3">AWS S3</a></li>
+                <li>
+                    <a href="#aws-cloudfront-cdn" aria-label="AWS CloudFront CDN">AWS CloudFront CDN</a></li>
+                <li>
+                    <a href="#cloudflare-dns-%e4%b8%8e-httpstls" aria-label="CloudFlare DNS 与 HTTPS、TLS">CloudFlare DNS 与 HTTPS、TLS</a><ul>
+                        
+                <li>
+                    <a href="#%e4%bb%80%e4%b9%88%e6%98%af%e5%8f%8d%e5%90%91%e4%bb%a3%e7%90%86" aria-label="什么是反向代理">什么是反向代理</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#%e5%90%8e%e7%ab%af%e7%bd%91%e7%ab%99%e8%ae%a1%e5%88%92%e7%89%88%e6%9c%ac" aria-label="后端网站（计划版本）">后端网站（计划版本）</a><ul>
+                        
+                <li>
+                    <a href="#aws-ec2" aria-label="AWS EC2">AWS EC2</a></li>
+                <li>
+                    <a href="#aws-ebs" aria-label="AWS EBS">AWS EBS</a></li>
+                <li>
+                    <a href="#mysql" aria-label="MySQL">MySQL</a></li>
+                <li>
+                    <a href="#nginx" aria-label="Nginx">Nginx</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
         </div>
-        <div class="post-reward">
-            <div style="padding: 0 0 0 0; margin: 0 0 0 0; width: 100%; font-size:16px; text-align: center;">
-                <div id="QR" style="opacity: 0;">
-                    <div id="wechat" style="display: inline-block">
-                        <a class="fancybox" rel="group">
-                            <img id="wechat_qr" src="https://khloe-zhang.github.io/img/wechat_pay.png" alt="wechat_pay"></a>
-                        <p>微信</p>
-                    </div>
-                    <div id="alipay" style="display: inline-block">
-                        <a class="fancybox" rel="group">
-                            <img id="alipay_qr" src="https://khloe-zhang.github.io/img/alipay.png" alt="alipay"></a>
-                        <p>支付宝</p>
-                    </div>
-                </div>
-                <button id="rewardButton"
-                        onclick="
-                    var qr = document.getElementById('QR');
-                    if (qr.style.opacity === '0') {
-                        qr.style.opacity='1';
-                    } else {
-                        qr.style.opacity='0'
-                    }"
-                >
-                    <span>🧧 鼓励</span>
-                </button>
-            </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+        
+        activeElement = elements[0];
+        const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+        document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+    }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        if (elements) {
+            activeElement = Array.from(elements).find((element) => {
+                if ((getOffsetTop(element) - window.pageYOffset) > 0 &&
+                    (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                    return element;
+                }
+            }) || activeElement
+
+            elements.forEach(element => {
+                const id = encodeURI(element.getAttribute('id')).toLowerCase();
+                if (element === activeElement){
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+                } else {
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+                }
+            })
+        }
+    }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;
+    }
+</script>
+        <div class="post-content"><h1 id="写在前面">写在前面<a hidden class="anchor" aria-hidden="true" href="#写在前面">#</a></h1>
+<p>一开始搭建这个网站时，是想练习一下 AWS 云服务的操作，真正用 AWS 来上手做一点事情。2月份开始就有这个想法，当时花费很久部署了 EC2 + EBS + Github Actions，搭配 Flask 后端和 VUE 前端。整个过程非常之艰辛，不断有各种报错，由于蹭的是 AWS 的免费套餐，EC2 和 EBS 都有限额，经常遇到内存不足的报错。历经千辛万苦配置好了服务器，又找到了合眼缘的 VUE 模板，但由于 node.js 各种包的版本不兼容，配置前端也花了很多精力。然而此时网站还没有任何内容，只是准备环境已经精疲力尽，又要开始准备春招，所以项目搁置了好几个月。后果是，等我想要继续开始时，已经忘记之前做了些啥&hellip;&hellip;当时每个步骤都在 Google Docs 里记录了，但现在看起来像天书，完全不记得每个步骤是在做啥。</p>
+<p>我想也可能是因为一直没有看到一个初步的成果，自己也没有继续做下去的动力了。这次重新启动，第一要义是先搞出一个可见的网站页面并且上线，尽量用简单的技术栈。经过思考，博客短期内应该只有静态内容，所以先不用服务器，改用 S3 托管静态页面，配合 CloudFront CDN 全球加速，继续用 Github Actions 来做 CI/CD。另外前端需要找能够快速配置和上线的模板，不要再用 VUE。经过一番搜索，Hugo 和 Hexo 是两个比较流行的博客框架，其中 Hugo 是基于 Go 语言的，据说不容易像 node.js 一样报错多多，于是选择 Hugo。在<a href="https://www.zhihu.com/question/266175192">这个知乎问答</a>里，找到了一个简洁又不失美观的模板，国内一个作者基于经典的 PaperMod 模板修改的 sulv-papermod。最终（或者说阶段性的）效果也就是你现在看到的网站了。</p>
+<h1 id="静态网站当前版本">静态网站（当前版本）<a hidden class="anchor" aria-hidden="true" href="#静态网站当前版本">#</a></h1>
+<h2 id="aws-s3">AWS S3<a hidden class="anchor" aria-hidden="true" href="#aws-s3">#</a></h2>
+<h2 id="aws-cloudfront-cdn">AWS CloudFront CDN<a hidden class="anchor" aria-hidden="true" href="#aws-cloudfront-cdn">#</a></h2>
+<h2 id="cloudflare-dns-与-httpstls">CloudFlare DNS 与 HTTPS、TLS<a hidden class="anchor" aria-hidden="true" href="#cloudflare-dns-与-httpstls">#</a></h2>
+<p>首先对比了两家域名服务商的价格，AWS Route53 是 14 美金一年，CloudFlare 10 美金一年，续约同价。另外 CF 还有方便部署的 HTTPS 和 SSL/TLS、DDoS、WAF 等安全服务。此外，据说 AWS 在中国大陆的 DNS 速度比较慢。综合看来，还是选择了 CloudFlare 买域名 + DNS 托管（其实两个可以分开，这里只是为了方便所以都用 CF 了）。</p>
+<h3 id="什么是反向代理">什么是反向代理<a hidden class="anchor" aria-hidden="true" href="#什么是反向代理">#</a></h3>
+<p>先说说什么是<em>正向代理（Forward Proxy）</em>。它是一个代理服务器，位于客户端和目标服务器之间，帮助客户端访问原本无法直接访问的内容。客户端将请求发给代理服务器，由代理服务器发起真正的网络请求，并将响应返回给客户端。相当于“偷偷”让代理帮你访问目标网站，目标服务器并不知道你是谁。</p>
+<p>正向代理的使用场景：</p>
+<ol>
+<li>绕过网络限制，访问被墙的网站（如中国大陆访问 Google、YouTube）。</li>
+<li>隐藏真实身份，比如用代理 IP 爬虫，防止被目标网站封禁。</li>
+<li>开发调试环境，开发人员抓包分析流量、测试不同地区的访问效果。</li>
+<li>访问地域限定资源，例如某服务只允许美国 IP 访问时，可以使用美国的正向代理服务器。</li>
+</ol>
+<p>似乎前两者更常见到。</p>
+<p>总之，正向代理的“代理”对象是<strong>客户端</strong>，帮客户端出面去请求内容。</p>
+<p>与之相对的，<em>反向代理（Reverse Proxy）</em> 的“代理”对象是<strong>服务端</strong>。它是一个位于客户端和服务器之间的服务器，接收用户请求并代表真实服务器来处理这些请求。它在扮演“服务器的中间商”。</p>
+<p>在部署 CloudFlare 的时候就用到了反向代理，DNS 列表里如果把 Proxy 打钩，图标会变成橙色云朵，代表开启了反向代理。</p>
+<p>在没有反向代理的情况下，用户浏览器会直接向 CloudFront 发起请求（DNS 只做解析，不做中转），CloudFront 向 S3 获取页面。没有 Cloudflare 的缓存、WAF、HTTPS、DDoS 防护等能力。路径是 用户 → DNS → CloudFront → S3。</p>
+<p>开启了反向代理后，用户请求被 Cloudflare 接收（Cloudflare 成为反向代理）。Cloudflare 根据配置（如 CNAME 记录）将请求转发到 CloudFront。现在路径是 用户 → CloudFlare 反向代理 → CloudFront → S3。</p>
+<p>CloudFlare 的反向代理主要实现以下几个功能：</p>
+<ul>
+<li>自动配置 HTTPS（使用它自己的证书），而且是免费的</li>
+<li>缓存静态内容（可减少 CloudFront 请求次数）</li>
+<li>过滤恶意请求、防护 DDoS、Bot 等攻击</li>
+<li>隐藏真实源站地址（CloudFront 域名不暴露）</li>
+</ul>
+<p>总之，在这个网站中，CloudFlare 的 “橙色云朵” Proxy 模式本质上就是反向代理服务器，负责代表网站接收用户请求、处理 HTTPS、执行缓存与安全策略。不仅提升了访问速度，也让网站更安全、更好用。</p>
+<h1 id="后端网站计划版本">后端网站（计划版本）<a hidden class="anchor" aria-hidden="true" href="#后端网站计划版本">#</a></h1>
+<h2 id="aws-ec2">AWS EC2<a hidden class="anchor" aria-hidden="true" href="#aws-ec2">#</a></h2>
+<h2 id="aws-ebs">AWS EBS<a hidden class="anchor" aria-hidden="true" href="#aws-ebs">#</a></h2>
+<h2 id="mysql">MySQL<a hidden class="anchor" aria-hidden="true" href="#mysql">#</a></h2>
+<h2 id="nginx">Nginx<a hidden class="anchor" aria-hidden="true" href="#nginx">#</a></h2>
+
+
         </div>
 
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="https://khloe-zhang.github.io/posts/read/read/">
-    <span class="title">« 上一页</span>
-    <br>
-    <span>Read</span>
-  </a>
-  <a class="next" href="https://khloe-zhang.github.io/posts/travel/0520/">
+  <a class="next" href="https://khloe-zhang.github.io/posts/tech/cloud/">
     <span class="title">下一页 »</span>
     <br>
-    <span>坡岛环游记之2——哈芝巷、武吉士、国家图书馆</span>
+    <span>云计算</span>
   </a>
 </nav>
 
@@ -475,11 +492,11 @@ var _hmt = _hmt || [];
         </summary>
         <div id="tcomment"></div>
     </details>
-    <script src="https://cdn.staticfile.org/twikoo/1.5.8/twikoo.all.min.js">
+    <script src="https://cdn.staticfile.org/twikoo/1.6.44/twikoo.all.min.js">
     </script>
     <script>
         twikoo.init({
-            envId:  null ,
+            envId: "https://twikoo.bearlybear.com",
         el: "#tcomment",
             lang: 'zh-CN',
             region:  null ,

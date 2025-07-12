@@ -27,34 +27,6 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript>
 <script defer src="https://unpkg.com/mermaid@8.8.1/dist/mermaid.min.js"></script>
 
@@ -79,7 +51,7 @@ var _hmt = _hmt || [];
 <meta property="og:url" content="https://khloe-zhang.github.io/posts/travel/0519/" />
 <meta property="og:image" content="https://khloe-zhang.github.io/posts/travel/0519/window-view.jpg" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2025-06-28T00:25:25+08:00" />
-<meta property="article:modified_time" content="2025-06-29T20:11:08+08:00" />
+<meta property="article:modified_time" content="2025-07-12T22:29:31+08:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://khloe-zhang.github.io/posts/travel/0519/window-view.jpg" />
@@ -129,7 +101,7 @@ var _hmt = _hmt || [];
   "wordCount" : "1803",
   "inLanguage": "zh",
   "image":"https://khloe-zhang.github.io/posts/travel/0519/window-view.jpg","datePublished": "2025-06-28T00:25:25+08:00",
-  "dateModified": "2025-06-29T20:11:08+08:00",
+  "dateModified": "2025-07-12T22:29:31+08:00",
   "author":[{
     "@type": "Person",
     "name": "Bear"
@@ -152,27 +124,10 @@ var _hmt = _hmt || [];
 
 <body class="" id="top">
 <script>
-    (function () {
-        let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
-        if(arr = document.cookie.match(reg)) {
-        } else {
-            if (new Date().getHours() >= 19 || new Date().getHours() < 6) {
-                document.body.classList.add('dark');
-                localStorage.setItem("pref-theme", 'dark');
-            } else {
-                document.body.classList.remove('dark');
-                localStorage.setItem("pref-theme", 'light');
-            }
-        }
-    })()
-
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
+
 </script>
 
 <header class="header">
@@ -279,19 +234,13 @@ var _hmt = _hmt || [];
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
         <span>
-                2025-06-29 12:11
+                2025-06-28 00:25
             
             &nbsp;&nbsp;
         </span>
     </span>
-      
-        <span id="post_meta_style_2">
-            <span class="fa fa-calendar-plus-o"></span>
-            <span>
-                更新&nbsp;2025-06-29 20:11
-                &nbsp;|&nbsp;&nbsp;
-            </span>
-        </span>
+    
+
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
         <span>1803字
@@ -332,7 +281,7 @@ var _hmt = _hmt || [];
                     <span id="post_meta_style_8">
                         <span class="fa fa-commenting-o"></span>
                         <span>
-                            <script src="https://cdn.staticfile.org/twikoo/1.5.8/twikoo.all.min.js"></script>
+                            <script src="https://cdn.staticfile.org/twikoo/1.6.44/twikoo.all.min.js"></script>
                             <script>
                                 let url = document.documentURI
                                 
@@ -343,7 +292,7 @@ var _hmt = _hmt || [];
                                     finalUrl = '/'+finalUrl
                                 }
                                 twikoo.getCommentsCount({
-                                    envId:  null , 
+                                    envId: "https://twikoo.bearlybear.com", 
                                 region:  null , 
                                 urls: [ 
                                     
@@ -484,10 +433,15 @@ var _hmt = _hmt || [];
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="next" href="https://khloe-zhang.github.io/posts/tech/tech1/">
+  <a class="prev" href="https://khloe-zhang.github.io/posts/travel/0520/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>坡岛环游记之2——哈芝巷、武吉士、国家图书馆</span>
+  </a>
+  <a class="next" href="https://khloe-zhang.github.io/posts/life/life/">
     <span class="title">下一页 »</span>
     <br>
-    <span>Redis scan命令学习</span>
+    <span>Life</span>
   </a>
 </nav>
 
@@ -515,11 +469,11 @@ var _hmt = _hmt || [];
         </summary>
         <div id="tcomment"></div>
     </details>
-    <script src="https://cdn.staticfile.org/twikoo/1.5.8/twikoo.all.min.js">
+    <script src="https://cdn.staticfile.org/twikoo/1.6.44/twikoo.all.min.js">
     </script>
     <script>
         twikoo.init({
-            envId:  null ,
+            envId: "https://twikoo.bearlybear.com",
         el: "#tcomment",
             lang: 'zh-CN',
             region:  null ,

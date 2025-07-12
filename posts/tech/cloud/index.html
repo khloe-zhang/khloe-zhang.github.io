@@ -27,34 +27,6 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -75,8 +47,8 @@ var _hmt = _hmt || [];
 <meta property="og:description" content="云计算相关知识点，服务架构" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://khloe-zhang.github.io/posts/tech/cloud/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-30T15:55:23+08:00" />
-<meta property="article:modified_time" content="2025-06-29T20:11:08+08:00" />
+<meta property="article:published_time" content="2025-06-30T17:43:00+08:00" />
+<meta property="article:modified_time" content="2025-07-12T22:29:31+08:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="云计算"/>
@@ -121,11 +93,11 @@ var _hmt = _hmt || [];
   "keywords": [
     "cloud"
   ],
-  "articleBody": "",
-  "wordCount" : "0",
+  "articleBody": "什么是云？什么是云计算？什么是上云？ 云计算（Cloud Computing）指通过互联网按需提供计算资源和服务，主要包含三种服务模型：基础设施即服务（IaaS）、平台即服务（PaaS）和软件即服务（SaaS）。满足企业的计算、存储、网络等需求。\n上云指的是将企业的 IT 资源、数据、应用程序或业务流程从本地（on-premises）基础设施迁移到云平台上，利用云计算服务提供的弹性、灵活和低成本的资源。上云可以实现企业在计算、存储、数据分析、安全等方面的需求，同时减少本地硬件维护的成本和复杂性。\n上云的常见架构 基础设施即服务（IaaS）：将企业的物理硬件资源（如服务器、存储、网络）替换为云提供的虚拟资源。例如，将企业的物理服务器迁移到 AWS EC2 实例或 Azure 虚拟机上。\n平台即服务（PaaS）：提供开发和运行应用程序的平台，企业无需管理底层基础设施，只需专注于应用程序的开发和运行。适合希望简化管理和提高开发效率的团队，例如 Azure App Service 或 Google App Engine。\n软件即服务（SaaS）：将软件直接作为服务交付给用户。用户通过浏览器或客户端访问应用程序，无需管理任何基础设施。这种模式通常用于企业级应用，如 Microsoft 365、Salesforce 等。\n上云的优点 弹性与可扩展性：企业可以根据需要增加或减少资源，灵活应对业务需求变化。 成本节约：无需购买和维护本地硬件，采用按需付费模式，优化成本。 自动化管理：云平台通常提供自动化管理工具，简化运维工作。 安全性和合规性：大部分云平台提供高标准的安全性和合规性支持，帮助企业实现更高的数据保护。\n上云的挑战 数据迁移：将数据从本地迁移到云上需要解决兼容性和数据安全问题。 性能和延迟：对于延迟敏感型业务，云上服务可能会受到网络延迟的影响。 合规性：某些行业有严格的数据合规要求，上云时需要确保云平台满足这些合规性。\n云计算的意义？ 云计算很大的一个好处是降低了搭建 infrastructure 的成本, 使得中小公司也很容易搭建自己的service。也因为如此, 我们可以预期未来的创业团队可以变得更加精简, 也能更快速地在市场验证想法。\n",
+  "wordCount" : "845",
   "inLanguage": "zh",
-  "datePublished": "2022-11-30T15:55:23+08:00",
-  "dateModified": "2025-06-29T20:11:08+08:00",
+  "datePublished": "2025-06-30T17:43:00+08:00",
+  "dateModified": "2025-07-12T22:29:31+08:00",
   "author":[{
     "@type": "Person",
     "name": "Bear"
@@ -148,27 +120,10 @@ var _hmt = _hmt || [];
 
 <body class="" id="top">
 <script>
-    (function () {
-        let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
-        if(arr = document.cookie.match(reg)) {
-        } else {
-            if (new Date().getHours() >= 19 || new Date().getHours() < 6) {
-                document.body.classList.add('dark');
-                localStorage.setItem("pref-theme", 'dark');
-            } else {
-                document.body.classList.remove('dark');
-                localStorage.setItem("pref-theme", 'light');
-            }
-        }
-    })()
-
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
+
 </script>
 
 <header class="header">
@@ -278,28 +233,22 @@ var _hmt = _hmt || [];
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
         <span>
-                2025-06-29 12:11
+                2025-06-30 17:43
             
             &nbsp;&nbsp;
         </span>
     </span>
-      
-        <span id="post_meta_style_2">
-            <span class="fa fa-calendar-plus-o"></span>
-            <span>
-                更新&nbsp;2025-06-29 20:11
-                &nbsp;|&nbsp;&nbsp;
-            </span>
-        </span>
+    
+
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>0字
+        <span>845字
             &nbsp;&nbsp;
         </span>
     </span>
     <span id="post_meta_style_4">
         <span class="fa fa-clock-o"></span>
-        <span>0分钟
+        <span>2分钟
             &nbsp;&nbsp;
         </span>
     </span>
@@ -331,7 +280,7 @@ var _hmt = _hmt || [];
                     <span id="post_meta_style_8">
                         <span class="fa fa-commenting-o"></span>
                         <span>
-                            <script src="https://cdn.staticfile.org/twikoo/1.5.8/twikoo.all.min.js"></script>
+                            <script src="https://cdn.staticfile.org/twikoo/1.6.44/twikoo.all.min.js"></script>
                             <script>
                                 let url = document.documentURI
                                 
@@ -342,7 +291,7 @@ var _hmt = _hmt || [];
                                     finalUrl = '/'+finalUrl
                                 }
                                 twikoo.getCommentsCount({
-                                    envId:  null , 
+                                    envId: "https://twikoo.bearlybear.com", 
                                 region:  null , 
                                 urls: [ 
                                     
@@ -367,20 +316,127 @@ var _hmt = _hmt || [];
                 </span>
 
 </div>
-        </header> 
+        </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e4%bb%80%e4%b9%88%e6%98%af%e4%ba%91%e4%bb%80%e4%b9%88%e6%98%af%e4%ba%91%e8%ae%a1%e7%ae%97%e4%bb%80%e4%b9%88%e6%98%af%e4%b8%8a%e4%ba%91" aria-label="什么是云？什么是云计算？什么是上云？">什么是云？什么是云计算？什么是上云？</a><ul>
+                        
+                <li>
+                    <a href="#%e4%b8%8a%e4%ba%91%e7%9a%84%e5%b8%b8%e8%a7%81%e6%9e%b6%e6%9e%84" aria-label="上云的常见架构">上云的常见架构</a></li>
+                <li>
+                    <a href="#%e4%b8%8a%e4%ba%91%e7%9a%84%e4%bc%98%e7%82%b9" aria-label="上云的优点">上云的优点</a></li>
+                <li>
+                    <a href="#%e4%b8%8a%e4%ba%91%e7%9a%84%e6%8c%91%e6%88%98" aria-label="上云的挑战">上云的挑战</a></li>
+                <li>
+                    <a href="#%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e6%84%8f%e4%b9%89" aria-label="云计算的意义？">云计算的意义？</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+        
+        activeElement = elements[0];
+        const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+        document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+    }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        if (elements) {
+            activeElement = Array.from(elements).find((element) => {
+                if ((getOffsetTop(element) - window.pageYOffset) > 0 &&
+                    (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                    return element;
+                }
+            }) || activeElement
+
+            elements.forEach(element => {
+                const id = encodeURI(element.getAttribute('id')).toLowerCase();
+                if (element === activeElement){
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+                } else {
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+                }
+            })
+        }
+    }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;
+    }
+</script>
+        <div class="post-content"><h2 id="什么是云什么是云计算什么是上云">什么是云？什么是云计算？什么是上云？<a hidden class="anchor" aria-hidden="true" href="#什么是云什么是云计算什么是上云">#</a></h2>
+<p>云计算（Cloud Computing）指通过互联网按需提供计算资源和服务，主要包含三种服务模型：基础设施即服务（IaaS）、平台即服务（PaaS）和软件即服务（SaaS）。满足企业的计算、存储、网络等需求。</p>
+<p>上云指的是将企业的 IT 资源、数据、应用程序或业务流程从本地（on-premises）基础设施迁移到云平台上，利用云计算服务提供的弹性、灵活和低成本的资源。上云可以实现企业在计算、存储、数据分析、安全等方面的需求，同时减少本地硬件维护的成本和复杂性。</p>
+<h3 id="上云的常见架构">上云的常见架构<a hidden class="anchor" aria-hidden="true" href="#上云的常见架构">#</a></h3>
+<p>基础设施即服务（IaaS）：将企业的物理硬件资源（如服务器、存储、网络）替换为云提供的虚拟资源。例如，将企业的物理服务器迁移到 AWS EC2 实例或 Azure 虚拟机上。</p>
+<p>平台即服务（PaaS）：提供开发和运行应用程序的平台，企业无需管理底层基础设施，只需专注于应用程序的开发和运行。适合希望简化管理和提高开发效率的团队，例如 Azure App Service 或 Google App Engine。</p>
+<p>软件即服务（SaaS）：将软件直接作为服务交付给用户。用户通过浏览器或客户端访问应用程序，无需管理任何基础设施。这种模式通常用于企业级应用，如 Microsoft 365、Salesforce 等。</p>
+<h3 id="上云的优点">上云的优点<a hidden class="anchor" aria-hidden="true" href="#上云的优点">#</a></h3>
+<p>弹性与可扩展性：企业可以根据需要增加或减少资源，灵活应对业务需求变化。
+成本节约：无需购买和维护本地硬件，采用按需付费模式，优化成本。
+自动化管理：云平台通常提供自动化管理工具，简化运维工作。
+安全性和合规性：大部分云平台提供高标准的安全性和合规性支持，帮助企业实现更高的数据保护。</p>
+<h3 id="上云的挑战">上云的挑战<a hidden class="anchor" aria-hidden="true" href="#上云的挑战">#</a></h3>
+<p>数据迁移：将数据从本地迁移到云上需要解决兼容性和数据安全问题。
+性能和延迟：对于延迟敏感型业务，云上服务可能会受到网络延迟的影响。
+合规性：某些行业有严格的数据合规要求，上云时需要确保云平台满足这些合规性。</p>
+<h3 id="云计算的意义">云计算的意义？<a hidden class="anchor" aria-hidden="true" href="#云计算的意义">#</a></h3>
+<p>云计算很大的一个好处是降低了搭建 infrastructure 的成本, 使得中小公司也很容易搭建自己的service。也因为如此, 我们可以预期未来的创业团队可以变得更加精简, 也能更快速地在市场验证想法。</p>
+
+
+        </div>
 
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="https://khloe-zhang.github.io/posts/tech/tech1/">
+  <a class="prev" href="https://khloe-zhang.github.io/posts/tech/web/">
     <span class="title">« 上一页</span>
     <br>
-    <span>Redis scan命令学习</span>
+    <span>Web</span>
   </a>
-  <a class="next" href="https://khloe-zhang.github.io/posts/life/life/">
+  <a class="next" href="https://khloe-zhang.github.io/posts/travel/0520/">
     <span class="title">下一页 »</span>
     <br>
-    <span>Life</span>
+    <span>坡岛环游记之2——哈芝巷、武吉士、国家图书馆</span>
   </a>
 </nav>
 
@@ -408,11 +464,11 @@ var _hmt = _hmt || [];
         </summary>
         <div id="tcomment"></div>
     </details>
-    <script src="https://cdn.staticfile.org/twikoo/1.5.8/twikoo.all.min.js">
+    <script src="https://cdn.staticfile.org/twikoo/1.6.44/twikoo.all.min.js">
     </script>
     <script>
         twikoo.init({
-            envId:  null ,
+            envId: "https://twikoo.bearlybear.com",
         el: "#tcomment",
             lang: 'zh-CN',
             region:  null ,

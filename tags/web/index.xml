@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>web on Bear&#39;s Blog</title>
+    <link>https://khloe-zhang.github.io/tags/web/</link>
+    <description>Recent content in web on Bear&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 06 Jul 2025 00:23:00 +0800</lastBuildDate><atom:link href="https://khloe-zhang.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web</title>
+      <link>https://khloe-zhang.github.io/posts/tech/web/</link>
+      <pubDate>Sun, 06 Jul 2025 00:23:00 +0800</pubDate>
+      
+      <guid>https://khloe-zhang.github.io/posts/tech/web/</guid>
+      <description>搭建网站用到的 Web 相关技术栈</description>
+    </item>
+    
+  </channel>
+</rss>

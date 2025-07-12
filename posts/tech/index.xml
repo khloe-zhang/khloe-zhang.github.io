@@ -7,30 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language><atom:link href="https://khloe-zhang.github.io/posts/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Redis scan命令学习</title>
-      <link>https://khloe-zhang.github.io/posts/tech/tech1/</link>
-      <pubDate>Wed, 30 Nov 2022 15:55:23 +0800</pubDate>
+      <title>Web</title>
+      <link>https://khloe-zhang.github.io/posts/tech/web/</link>
+      <pubDate>Sun, 06 Jul 2025 00:23:00 +0800</pubDate>
       
-      <guid>https://khloe-zhang.github.io/posts/tech/tech1/</guid>
-      <description>scan命令详解</description>
+      <guid>https://khloe-zhang.github.io/posts/tech/web/</guid>
+      <description>搭建网站用到的 Web 相关技术栈</description>
     </item>
     
     <item>
       <title>云计算</title>
       <link>https://khloe-zhang.github.io/posts/tech/cloud/</link>
-      <pubDate>Wed, 30 Nov 2022 15:55:23 +0800</pubDate>
+      <pubDate>Mon, 30 Jun 2025 17:43:00 +0800</pubDate>
       
       <guid>https://khloe-zhang.github.io/posts/tech/cloud/</guid>
       <description>云计算相关知识点，服务架构</description>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>https://khloe-zhang.github.io/posts/tech/tech/</link>
-      <pubDate>Thu, 05 May 2022 00:17:58 +0800</pubDate>
-      
-      <guid>https://khloe-zhang.github.io/posts/tech/tech/</guid>
-      <description>科技代码</description>
     </item>
     
   </channel>

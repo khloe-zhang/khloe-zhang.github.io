@@ -27,34 +27,6 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -106,27 +78,10 @@ var _hmt = _hmt || [];
 
 <body class="list" id="top">
 <script>
-    (function () {
-        let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
-        if(arr = document.cookie.match(reg)) {
-        } else {
-            if (new Date().getHours() >= 19 || new Date().getHours() < 6) {
-                document.body.classList.add('dark');
-                localStorage.setItem("pref-theme", 'dark');
-            } else {
-                document.body.classList.remove('dark');
-                localStorage.setItem("pref-theme", 'light');
-            }
-        }
-    })()
-
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
+
 </script>
 
 <header class="header">
@@ -205,14 +160,14 @@ var _hmt = _hmt || [];
 <article class="post-entry">
   <div class="post-info">
     <header class="entry-header">
-      <h2>Redis scan命令学习
+      <h2>Web
       </h2>
     </header>
     <section class="entry-content">
       <p>
-        scan命令详解
+        搭建网站用到的 Web 相关技术栈
         
-        ...
+        
       </p>
     </section>
     <footer class="entry-footer">
@@ -235,34 +190,28 @@ var _hmt = _hmt || [];
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
         <span>
-                2025-06-29 12:11
+                2025-07-06 00:23
             
             &nbsp;&nbsp;
         </span>
     </span>
-      
-        <span id="post_meta_style_2">
-            <span class="fa fa-calendar-plus-o"></span>
-            <span>
-                更新&nbsp;2025-06-29 20:11
-                &nbsp;|&nbsp;&nbsp;
-            </span>
-        </span>
+    
+
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>770字
+        <span>1674字
             &nbsp;&nbsp;
         </span>
     </span>
     <span id="post_meta_style_4">
         <span class="fa fa-clock-o"></span>
-        <span>2分钟
+        <span>4分钟
             &nbsp;&nbsp;
         </span>
     </span>
     <span id="post_meta_style_5">
         <span class="fa fa-user-o"></span>
-        <span>Sulv
+        <span>Bear
             &nbsp;&nbsp;
         </span>
     </span>
@@ -270,15 +219,14 @@ var _hmt = _hmt || [];
         <span class="fa fa-tags" style="opacity: 0.8"></span>
         <span>
             <span class="post-tags-meta">
-                <a href="https://khloe-zhang.github.io/tags/redis/" style="color: var(--secondary)!important;">Redis</a>
-                &nbsp;<a href="https://khloe-zhang.github.io/tags/tech/" style="color: var(--secondary)!important;">tech</a>
+                <a href="https://khloe-zhang.github.io/tags/web/" style="color: var(--secondary)!important;">web</a>
             </span>
         </span>
     </span>
 </span>
 </footer>
   </div> 
-  <a class="entry-link" aria-label="post link to Redis scan命令学习" href="https://khloe-zhang.github.io/posts/tech/tech1/"></a>
+  <a class="entry-link" aria-label="post link to Web" href="https://khloe-zhang.github.io/posts/tech/web/"></a>
 </article>
 
 <article class="post-entry">
@@ -314,28 +262,22 @@ var _hmt = _hmt || [];
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
         <span>
-                2025-06-29 12:11
+                2025-06-30 17:43
             
             &nbsp;&nbsp;
         </span>
     </span>
-      
-        <span id="post_meta_style_2">
-            <span class="fa fa-calendar-plus-o"></span>
-            <span>
-                更新&nbsp;2025-06-29 20:11
-                &nbsp;|&nbsp;&nbsp;
-            </span>
-        </span>
+    
+
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>0字
+        <span>845字
             &nbsp;&nbsp;
         </span>
     </span>
     <span id="post_meta_style_4">
         <span class="fa fa-clock-o"></span>
-        <span>0分钟
+        <span>2分钟
             &nbsp;&nbsp;
         </span>
     </span>
@@ -358,86 +300,6 @@ var _hmt = _hmt || [];
 </footer>
   </div> 
   <a class="entry-link" aria-label="post link to 云计算" href="https://khloe-zhang.github.io/posts/tech/cloud/"></a>
-</article>
-
-<article class="post-entry">
-  <div class="post-info">
-    <header class="entry-header">
-      <h2>Tech
-      </h2>
-    </header>
-    <section class="entry-content">
-      <p>
-        科技代码
-        
-        ...
-      </p>
-    </section>
-    <footer class="entry-footer">
-
-<style>
-    i[id*="post_meta_style"] {
-        display: flex;
-        align-items: center;
-        margin: 0 0 10px 0;
-    }
-
-    .parent-post-meta {
-        display: flex;
-        flex-wrap: wrap;
-        opacity: 0.8;
-    }
-</style>
-
-<span class="parent-post-meta">
-    <span id="post_meta_style_1">
-        <span class="fa fa-calendar-check-o"></span>
-        <span>
-                2025-06-29 12:11
-            
-            &nbsp;&nbsp;
-        </span>
-    </span>
-      
-        <span id="post_meta_style_2">
-            <span class="fa fa-calendar-plus-o"></span>
-            <span>
-                更新&nbsp;2025-06-29 20:11
-                &nbsp;|&nbsp;&nbsp;
-            </span>
-        </span>
-    <span id="post_meta_style_3">
-        <span class="fa fa-file-word-o"></span>
-        <span>210字
-            &nbsp;&nbsp;
-        </span>
-    </span>
-    <span id="post_meta_style_4">
-        <span class="fa fa-clock-o"></span>
-        <span>1分钟
-            &nbsp;&nbsp;
-        </span>
-    </span>
-    <span id="post_meta_style_5">
-        <span class="fa fa-user-o"></span>
-        <span>Sulv
-            &nbsp;&nbsp;
-        </span>
-    </span>
-    <span id="post_meta_style_6">
-        <span class="fa fa-tags" style="opacity: 0.8"></span>
-        <span>
-            <span class="post-tags-meta">
-                <a href="https://khloe-zhang.github.io/tags/tech/" style="color: var(--secondary)!important;">tech</a>
-            </span>
-        </span>
-    </span>
-</span>
-</footer>
-  </div> 
-<figure class="entry-cover"><img loading="lazy" src="https://www.sulvblog.cn/posts/blog/how_to_write_a_blog/1.png" alt="">
-</figure>
-  <a class="entry-link" aria-label="post link to Tech" href="https://khloe-zhang.github.io/posts/tech/tech/"></a>
 </article>
 
 <br />
